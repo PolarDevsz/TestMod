@@ -139,13 +139,6 @@ turret.health = 900000000;*/
         });
 
         wispion.buildType = prov(() => extend(LaserTurret.LaserTurretBuild, wispion, {}));
-        wispion.requirements = ItemStack.with(
-            Items.copper, 1200,
-            Items.lead, 350,
-            Items.graphite, 300,
-            Items.surgeAlloy, 325,
-            Items.silicon, 325
-        );
         wispion.shootEffect = Fx.shootBigSmoke2;
         wispion.shootCone = 40;
         wispion.recoil = 4;
